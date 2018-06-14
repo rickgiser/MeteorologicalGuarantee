@@ -1,0 +1,7 @@
+syntax = "proto3";
+import "wpGeoPoint.proto";
+package pbufWeather; 
+message wpLineRenderLabel 
+{ 
+   repeated wpGeoPoint wGeoPointArray = 1;
+}

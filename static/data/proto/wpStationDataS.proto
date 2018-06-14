@@ -1,0 +1,7 @@
+syntax = "proto3";
+import "wpStationData.proto";
+package pbufWeather; 
+message wpStationDataS
+{ 
+   repeated wpStationData wStationDatasArray = 1;
+}

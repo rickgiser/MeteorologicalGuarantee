@@ -1,0 +1,9 @@
+syntax = "proto3";
+package windpole;
+
+message wpGeoWindPole{
+    double X = 1;
+    double Y = 2;
+    int32 Value = 3;
+    double Angle =4;
+}

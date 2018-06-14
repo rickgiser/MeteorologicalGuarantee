@@ -1,0 +1,15 @@
+syntax = "proto3";
+import "wpLineRenderLabel.proto"; 
+package pbufWeather; 
+message wpGeoLine 
+{ 
+   int32 PtCount = 1;
+   double Value = 2;
+   repeated double xArray = 3;
+   repeated double yArray = 4;
+   repeated double zArray = 5;
+   int32  ValueColor = 6;
+   bytes ValueString = 7;
+   bytes LineTypeString = 8;
+   wpLineRenderLabel Label = 9;
+}

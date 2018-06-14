@@ -1,0 +1,7 @@
+syntax = "proto3";
+package pbufWeather; 
+message wpStationPoint
+{ 
+   int32 PtCount = 1;
+   repeated double PtArray = 2;
+}

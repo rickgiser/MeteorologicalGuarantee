@@ -1,0 +1,13 @@
+syntax = "proto3";
+package pbufWeather; 
+message wpGeoPoint 
+{ 
+   double Value = 2;
+   double X = 3;
+   double Y = 4;
+   double Z = 5;
+   int32  ValueColor = 6;
+   double Angle = 7;
+   bytes ValueString = 8;
+   bytes PointTypeString = 9;
+}
